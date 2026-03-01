@@ -64,7 +64,7 @@ a:hover {
     border-radius: 2px;
 }
 
-.sessao-destaque{
+.secao-destaque{
     background-image: url(assets/destaquebanner.jpg);
     background-size: cover;
     text-align: center;
@@ -72,12 +72,12 @@ a:hover {
     padding-bottom: 4%;
 }
 
-.desc-sessao {
+.desc-secao {
     font-size: 40px;
     margin-top: 4%;
 }
 
-.desc-sessao2 {
+.desc-secao2 {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 40px;
     margin-top: 3%;
@@ -115,4 +115,9 @@ a:hover {
     0 0 1px rgb(255, 166, 33),
     0 0 10px rgb(255, 166, 33),
     0 0 15px rgb(255, 166, 33);
+}
+
+.cards-container {
+    display:flex;
+    justify-content: space-between;
 }
