@@ -117,7 +117,7 @@ a:hover {
     0 0 15px rgb(255, 166, 33);
 }
 
-.secao-cards {
+.cards-container {
     display:flex;
     justify-content: space-between;
 }
