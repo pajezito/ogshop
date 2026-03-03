@@ -119,5 +119,41 @@ a:hover {
 
 .cards-container {
     display:flex;
-    justify-content: space-between;
+    justify-content:space-evenly;
+}
+
+.titulo-cards {
+    text-align: center;
+    margin: 3%;
+    font-size: 2.5rem;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
+}
+
+.box-cards {
+    justify-items: center;
+    text-align: center;
+    font-size: 1.2rem;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
+}
+
+button {
+    background-color: rgb(39, 172, 22);
+    padding: 2%;
+    padding-inline: 3%;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 600;
+    border-color: transparent;
+    margin-top: 2rem;
+    color: white;
+    box-shadow: 0px 0px 10px rgb(94, 221, 100, 0.3);
 }
