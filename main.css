@@ -160,6 +160,24 @@ button {
 .box-cards {
     align-items: center;
 }
-.box-cards {
+
+.sub-menu{
+    display:block;
+    position: absolute;
+    text-align: center;
+    background-color: rgb(24, 24, 24);
+    visibility: hidden ;
+}
+
+.listasub {
+    display:block;
     align-items: center;
+}
+
+.subtext {
+    padding: 10px;
+}
+
+.sub-menu:hover{
+    visibility:visible;
 }
