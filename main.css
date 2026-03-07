@@ -68,6 +68,21 @@ a:hover {
     border-radius: 2px;
 }
 
+.item-carrinho {
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: white;
+}
+
+.carrinho {
+    max-width: 35px;
+    width: 35px;
+    align-items: center;
+    justify-items: center;
+}
+
 .secao-destaque {
     background-image: url(assets/destaquebanner.jpg);
     background-size: cover;
@@ -160,6 +175,7 @@ button {
     margin-top: 2rem;
     color: white;
     box-shadow: 0px 0px 10px rgb(94, 221, 100, 0.3);
+    cursor: pointer;
 }
 
 .box-cards {
