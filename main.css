@@ -227,8 +227,10 @@ li:hover .sub-menu {
 .sub-menu-carrinho {
     display: flex;
     flex-direction: column;
-    position: fixed;
-    right: 10px;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%) translateY(40px);
     background-color: rgb(24, 24, 24);
     visibility: hidden;
     opacity: 0;
@@ -238,7 +240,9 @@ li:hover .sub-menu {
     z-index: 100;
     min-width: 150px;
     align-items: center;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.3);
 }
+
 .item-carrinho:hover .sub-menu-carrinho {
     visibility: visible;
     opacity: 1;
